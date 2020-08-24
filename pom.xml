@@ -17,6 +17,7 @@
         <module>hessian-server</module>
         <module>dubbo-provider</module>
         <module>dubbo-consumer</module>
+        <module>socket-demo</module>
     </modules>
 
     <properties>

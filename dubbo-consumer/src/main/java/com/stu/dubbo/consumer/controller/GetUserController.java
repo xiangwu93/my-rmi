@@ -22,7 +22,7 @@ public class GetUserController {
     @Reference
     GetUserService getUserService;
 
-    @RequestMapping
+    @RequestMapping("getUserList")
     public List<DubboUser> getUserList(@RequestParam("name")String name){
         return getUserService.getUserList(name);
     }
